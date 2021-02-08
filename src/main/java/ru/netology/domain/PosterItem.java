@@ -5,14 +5,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.awt.*;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class PurchaseItem {
+public class PosterItem {
 
     private int id;
-    private int productId;
-    private String productName;
-    private int productPrice;
-    private int count;
+    private int filmId;
+    private String filmName;
+    private String filmGenre;
+    private int filmPicture;
 }
